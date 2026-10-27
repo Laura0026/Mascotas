@@ -22,13 +22,53 @@
       </div>
       <div class="drawer-body">
         <div class="nav nav-pills navbar-nav">
-          <a class="nav-link" aria-current="page" href="Mascotas.html">Mascotas</a>
+          <a class="nav-link" aria-current="page" href="Index.html">Mascotas</a>
           <a class="nav-link" href="ComoAdoptar.html">Como Adoptar</a>
           <a class="nav-link" href="Voluntariado.html">Voluntariado</a>
           <a class="nav-link active" href="Donaciones.html">Donaciones</a>
         </div>
-      </div>
+  </nav>
     </dialog>
  
+
+<h1>Formulario de registro Para donaciones</h1>
+    <form action=""></form>
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" name="nombre" id="nombre"><br><br>
+        <label for="Apellidos">Apellidos:</label><br>
+        <input type="text" name="Apellidos" id="Apellidos"><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" name="email" id="Email:" required placeholder="nombre@ejemplo.com"><br><br>
+        <label for="contraseña">Contraseña</label><br>
+        <input type="password" required><br><br>
+        <label for="Fechadenacimiento">Fecha de nacimiento:</label><br>
+        <input type="date" name="Fechadenacimiento" id="Fechadenacimiento"><br><br>
+        <label for="Género">Género</label><br>
+        <input type="radio" name="Género" id="Mujer">
+        <label for="home">Hombre</label>
+        <input type="radio" name="Género" id="Mujer">
+        <label for="Mujer">Mujer</label>
+        <input type="radio" name="Género" id="Otros">
+        <label for="home">Otros</label><br><br>
+        <label for="País">País de residencia</label><br>
+        <select name="País" id="País">
+            <option value="">--Selecciona un País--</option>
+            <option value="Esp">España</option>
+            <option value="Fr">Francia</option>
+            <option value="It">Italia</option>
+        </select><br><br>
+        <label for="">Experiencia Laboral</label><br>
+        <label for="">Si</label>
+            <input type="checkbox" name="Intereses" id="Tecno">
+        <label for="">No</label>
+            <input type="checkbox" name="Intereses" id="Música">
+        <label for="">En Paro</label>
+            <input type="checkbox" name="Intereses" id="Deportes">
+        <br><br>
+        <label for="mensaje">Comentarios adicionales</label><br>
+        <textarea name="mensaje" id="mensaje" rows="4" cols="40" placeholder="Escribe tu mensaje aquí"></textarea><br><br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpiar Formulario</button>
+
 </body>
 </html>
